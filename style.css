@@ -1,0 +1,30 @@
+    body{
+        height: fit-content;
+        width: fit-content;
+    }
+    .main-container{
+        height: 100%;
+        width: 100%;
+    }
+    #logoImg{
+        height: 60px;
+        width: 60px;
+    }
+    #imgCity{
+        height: 150px;
+        width: 150px;
+    }
+    #SocialMediaImage{
+        height: 20px;
+        width: 22px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    #list-view{
+        scroll-behavior: initial;
+    }
+    .hotel-image{
+        width: 500px;
+    }

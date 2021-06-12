@@ -1,55 +1,62 @@
 <html>
     <head>
         <title>detail</title>
+        
+        <link rel="stylesheet" href="style.css">
+    
     </head>
     <body>
-        <div>    
+        <div class="main-container">    
             <div>
                 <header>
                     <a href="index.html">
-                        <img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\logo.png" alt="logo" height="200px" width="150px">
+                        <img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\logo.png" id="logoImg" alt="logo" height="200px" width="150px">
                     </a>
                     <a href="login.html" target="_self">Login</a>
                 </header>
             </div>
+            <section>
+                <div >
+
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="hotel-image"><br>
+                    <br>
+                    <form name="detail" action="payment.html" onsubmit="return validateForm()" method="GET" required >
+                        <label for="Adults">Adults :</label>
+                        <input type="number" name="quantity" id="quantity" min="1" required>
+                        <br>
+                        <label for="Name">Name :</label>
+                        <input type="text" name="name" id="name" required >
+                        <br>
+                        <label for="fromDate">From Date :</label>
+                        <input type="date" name="fromDate"id="fromDate" required>
+                        <br>
+                        <label for="toDate">To Date :</label>
+                        <input type="date" name="toDate" id="toDate" required>
+                        <br>
+                        <label for="total">Total</label>
+                        <input type="text" name="total" id="total">
+                        <br>
+                        <button type="Book Now" >Book Now</button>   
+                    </form>
+                    <h2>Radison Blu Hotel</h2>
+                    RATING<br><br>5 Star<br><br>
+                    AMINITIES
+                    <list>
+                        <ul>
+                            <li>Room Service</li>
+                            <li>Resturant</li>
+                            <li>Bussness Center</li>
+                            <li>Fitnes Center</li>
+                            <li>Pool</li>
+                        </ul>
+                    </list>
+                    <h5>DESCRIPTION</h5>
+                    <p>Dummy text for description</p>
+                </div>
+            </section>
+            
             <div>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
-                <br>
-                <form name="detail" action="payment.html" onsubmit="return validateForm()" method="GET" required >
-                    <label for="Adults">Adults :</label>
-                    <input type="number" name="quantity" id="quantity" min="1" required>
-                    <br>
-                    <label for="Name">Name :</label>
-                    <input type="text" name="name" id="name" required >
-                    <br>
-                    <label for="fromDate">From Date :</label>
-                    <input type="date" name="fromDate"id="fromDate" required>
-                    <br>
-                    <label for="toDate">To Date :</label>
-                    <input type="date" name="toDate" id="toDate" required>
-                    <br>
-                    <label for="total">Total</label>
-                    <input type="text" name="total" id="total">
-                    <br>
-                    <button type="Book Now" >Book Now</button>   
-                </form>
-                <h2>Radison Blu Hotel</h2>
-                RATING<br><br>5 Star<br><br>
-                AMINITIES
-                <list>
-                    <ul>
-                        <li>Room Service</li>
-                        <li>Resturant</li>
-                        <li>Bussness Center</li>
-                        <li>Fitnes Center</li>
-                        <li>Pool</li>
-                    </ul>
-                </list>
-                <h5>DESCRIPTION</h5>
-                <p>Dummy text for description</p>
-            </div>
-            <div>
-                <Footer>
+                <footer>
                     <a href="contact.html" target="_blank">Contact us</a>
                     <br>
                     <a href="https://www.facebook.com/" target="_blank"><img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\facebook.png"height="20px" width="22px" ></a>
@@ -57,7 +64,7 @@
                     <a href="https://twitter.com/" target="_blank"><img src="E:\Study\Upgrad\HTML CSS JavaScript\Project\Hotel_Booking_Website\assests\images\twitter.png"height="20px" width="22px" ></a>
                 <br>
                 &copy 2020 ROOM SEARCH PVT LTD
-                </Footer>
+                </footer>
             </div>
         </div>
     </body>
