@@ -1,6 +1,19 @@
     body{
-        height: fit-content;
-        width: fit-content;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        background-color: #e0e0e0;
+    }
+    header , footer{
+        background-color: rosybrown;
+    }
+    .search-bar{
+        background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
     }
     .main-container{
         height: 100%;
@@ -11,12 +24,30 @@
         width: 60px;
     }
     #imgCity{
+        
+        padding: 4%;
+        border-radius: 25%;
         height: 150px;
         width: 150px;
+    }
+    #City{
+        height: 150px;
+        width: 150px;
+    }
+    .city-detail{
+        margin: 2%;
+        background-color: rgb(132,136,139);
+        width: 40%;
+    }
+    .city-list{
+        margin-left: 15%;
+        margin-right: 15%;
+        
     }
     #SocialMediaImage{
         height: 20px;
         width: 22px;
+
     }
     
     html {
@@ -27,4 +58,36 @@
     }
     .hotel-image{
         width: 500px;
+        margin-top: 2%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+   
+    
+    .payment{
+        background-color: rgb(132,136,139); 
+        margin-top:2%; 
+        margin-bottom: 2%;
+        margin-left:25%;
+        margin-right: 25%;
+        
+    }
+    .payment-cutomer-info{
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+    }
+    .loder{
+        width: 70px;
+        height: 70px;
+        
+        border-radius: 50%;
+        border: 15px solid #f3f3f3;
+        border-width: 12px ;
+        margin-left:50%;
+        margin-top: auto;
+
+        border-color:#444444 #f3f3f3 #f3f3f3
+        
     }
